@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NATHAN PMS | Hotel Management</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #f1f5f9;
+      color: #10243a;
+    }
+    header {
+      background: #10243a;
+      color: white;
+      padding: 25px;
+      text-align: center;
+    }
+    main {
+      padding: 25px;
+      text-align: center;
+    }
+    .dashboard {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+      gap: 15px;
+      max-width: 900px;
+      margin: 30px auto;
+    }
+    .card {
+      background: white;
+      padding: 25px 12px;
+      border-radius: 12px;
+      box-shadow: 0 2px 8px #0001;
+    }
+    .card h3 { margin-top: 0; }
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #64748b;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>NATHAN PMS</h1>
+    <p>Multi-Hotel Business Management System</p>
+  </header>
+  <main>
+    <h2>Welcome to NATHAN PMS</h2>
+    <p>Manage your hotel operations in one place.</p>
+    <div class="dashboard">
+      <div class="card"><h3>Rooms</h3><p>Room Management</p></div>
+      <div class="card"><h3>Guests</h3><p>Guest Records</p></div>
+      <div class="card"><h3>Reservations</h3><p>Bookings</p></div>
+      <div class="card"><h3>Reception</h3><p>Check-in & Check-out</p></div>
+      <div class="card"><h3>Finance</h3><p>Payments & Folios</p></div>
+      <div class="card"><h3>Reports</h3><p>Hotel Performance</p></div>
+    </div>
+  </main>
+  <footer>NATHAN PMS © 2026</footer>
+</body>
+</html>
